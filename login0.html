@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <style>
+        #redd {
+            background-color: antiquewhite;
+            text-align: center;
+            margin:20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        </style>
+    </head>
+    <body id="redd">
+        <h1>LOGIN</h1>
+        <form onsubmit="return login()">
+            <div>
+                <labe> enter emaild :</label>
+                <input id="bhan" name="email" type="text" required>
+            </div>
+            <br>
+            <div>
+                <label>          enter password:</label>
+                <input id="pkra" name="pswd" type="password" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+            <br>
+            <div>
+                <p>or <input type="button" value="Sign Up"></p>
+            </div>
+            <div>
+                <p id='result'></p>
+            </div>
+            <script src="./login3.js"></script>
+        </form>
+    </body>
+</html>
